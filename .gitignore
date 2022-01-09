@@ -1,0 +1,5 @@
+composer.phar
+vendor/
+node_modules/
+.phpunit.xml
+.history
