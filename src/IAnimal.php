@@ -11,4 +11,7 @@ interface IAnimal {
 
 	/** the sound that the animal makes */
 	public function getSound(): string;
+
+	/** age of dog in years */
+	public function getAge(): float;
 }
