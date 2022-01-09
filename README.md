@@ -12,9 +12,10 @@
  - [x] Static analysis tools:
    - [x] *Lint and auto-format PHP code* with [PHP CodeSniffer](https://github.com/squizlabs/PHP_CodeSniffer) (PHPCS)
    - [x] *Security analysis* with [Psalm](https://github.com/vimeo/psalm) ([official website](https://psalm.dev/))
+ - [x] *Continuous integration* with [GitHub Actions](https://github.com/features/actions)
 
 ## 🚧 Roadmap
- - [ ] *Continuous integration* with [GitHub Actions](https://github.com/features/actions)
+
  - [ ] auto-generated documentation with [phpDocumentor](https://www.phpdoc.org/) and [GitHub Pages](https://docs.github.com/en/pages)
  - [ ] Remote development with [GitHub Codespaces](https://github.com/features/codespaces)
 
