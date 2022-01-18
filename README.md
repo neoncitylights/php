@@ -14,10 +14,7 @@
    - [x] *Security analysis* with [Psalm](https://github.com/vimeo/psalm) ([official website](https://psalm.dev/))
  - [x] *Continuous integration* with [GitHub Actions](https://github.com/features/actions)
    - [x] auto-generated documentation with [phpDocumentor](https://www.phpdoc.org/), [GitHub Pages](https://docs.github.com/en/pages)
-
-## 🚧 Roadmap
-
- - [ ] Remote development with [GitHub Codespaces](https://github.com/features/codespaces)
+ - [x] Remote development with [GitHub Codespaces](https://github.com/features/codespaces)
 
 ## Configure
  - Composer package: [`composer.json`](./composer.json) ([official docs](https://getcomposer.org/doc/04-schema.md))
