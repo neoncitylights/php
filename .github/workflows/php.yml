@@ -20,6 +20,12 @@ jobs:
     steps:
     - uses: actions/checkout@v2
 
+    - name: Setup PHP
+      uses: shivammathur/setup-php@v2
+      with:
+        php-version: '8.1'
+        tools: composer:v2, phpdoc
+
     - name: Validate composer.json and composer.lock
       run: composer validate --strict
 
@@ -37,3 +43,12 @@ jobs:
 
     - name: Run test suite
       run: composer test
+
+    - name: Build documentation
+      run: phpdoc
+
+    - name: Deploy documentation
+      uses: peaceiris/actions-gh-pages@v3
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_dir: ./public
