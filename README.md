@@ -15,13 +15,14 @@
  - [x] *Continuous integration* with [GitHub Actions](https://github.com/features/actions)
    - [x] auto-generated documentation with [phpDocumentor](https://www.phpdoc.org/), [GitHub Pages](https://docs.github.com/en/pages)
  - [x] Remote development with [GitHub Codespaces](https://github.com/features/codespaces)
+ - [x] Composer dependency updates auto-managed with Renovatebot
 
-## Configure
+## ⚙️ Configure
  - Composer package: [`composer.json`](./composer.json) ([official docs](https://getcomposer.org/doc/04-schema.md))
  - PHPCS: [`.phpcs.xml`](./.phpcs.xml) ([official docs](https://github.com/squizlabs/PHP_CodeSniffer/wiki/Advanced-Usage#using-a-default-configuration-file))
  - PHPUnit: [`.phpunit.xml.dist`](./.phpunit.xml.dist) ([official docs](https://phpunit.readthedocs.io/en/9.5/configuration.html))
  - PSalm: [`psalm.xml`](./psalm.xml) ([official docs](https://psalm.dev/docs/running_psalm/configuration/))
  - phpdoc: [`phpdoc.dist.xml`](./phpdoc.dist.xml) ([official docs](https://docs.phpdoc.org/3.0/guide/references/configuration.html))
 
-## See also
+## ℹ️ See also
  - [Quick start to reStructuredText](https://docutils.sourceforge.io/docs/user/rst/quickstart.html) (`.rst`), markup language used for phpDocumentor
