@@ -5,7 +5,7 @@
 >
 > I hope this template can be useful for you!
 
-## Features
+## 🚀 Features
  - [x] [PHP 8.0](https://www.php.net/releases/8.0/en.php) support
  - [x] *Unit testing* with [PHPUnit](https://github.com/sebastianbergmann/phpunit/) ([official website](https://phpunit.de/))
  - [x] Static analysis tools:
