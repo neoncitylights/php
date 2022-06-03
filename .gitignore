@@ -16,3 +16,5 @@ node_modules/
 # phpDocumentor
 .phpdoc
 phpdoc.xml
+docs/build/
+docs/cache/
