@@ -6,11 +6,25 @@ on:
     branches: [ main ]
     paths:
       - 'src/**/*.php'
+      - 'tests/**/*.php'
+      - '.phpcs.xml'
+      - '.phpunit.xml.dist'
+      - 'composer.json'
+      - 'composer.lock'
+      - 'phpdoc.dist.xml'
+      - 'psalm.xml'
       - '!vendor'
   pull_request:
     branches: [ main ]
     paths:
       - 'src/**/*.php'
+      - 'tests/**/*.php'
+      - '.phpcs.xml'
+      - '.phpunit.xml.dist'
+      - 'composer.json'
+      - 'composer.lock'
+      - 'phpdoc.dist.xml'
+      - 'psalm.xml'
       - '!vendor'
 
 jobs:
