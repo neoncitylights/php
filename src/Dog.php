@@ -2,6 +2,11 @@
 
 namespace Neoncitylights\ExampleLibrary;
 
+/**
+ * A cute dog!
+ *
+ * @license MIT
+ */
 class Dog implements IAnimal {
 	private string $name;
 	private float $age;

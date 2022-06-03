@@ -2,6 +2,11 @@
 
 namespace Neoncitylights\ExampleLibrary;
 
+/**
+ * An interface for the behaviors and properties of animals.
+ *
+ * @license MIT
+ */
 interface IAnimal {
 	/** name of the animal, like 'Fluffy' */
 	public function getName(): string;
