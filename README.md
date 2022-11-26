@@ -17,6 +17,11 @@
  - [x] Remote development with [GitHub Codespaces](https://github.com/features/codespaces)
  - [x] Composer dependency updates auto-managed with Renovatebot
 
+## Getting started
+```shell
+gh repo create {repo-name} --public --clone --template neoncitylights/php-template
+```
+
 ## ⚙️ Configure
  - Composer package: [`composer.json`](./composer.json) ([official docs](https://getcomposer.org/doc/04-schema.md))
  - PHPCS: [`.phpcs.xml`](./.phpcs.xml) ([official docs](https://github.com/squizlabs/PHP_CodeSniffer/wiki/Advanced-Usage#using-a-default-configuration-file))
@@ -26,3 +31,9 @@
 
 ## ℹ️ See also
  - [Quick start to reStructuredText](https://docutils.sourceforge.io/docs/user/rst/quickstart.html) (`.rst`), markup language used for phpDocumentor
+
+## License
+This software is licensed under the MIT license ([`LICENSE-MIT`](./LICENSE) or http://opensource.org/licenses/MIT).
+
+### Contribution
+Unless you explicitly state otherwise, any contribution intentionally submitted for inclusion in the work by you, as defined in the MIT license, shall be licensed as above, without any additional terms or conditions.
