@@ -26,6 +26,14 @@ This repository makes it easier to develop a PHP application or library by provi
 gh repo create {repo-name} --public --clone --template neoncitylights/php-template
 ```
 
+1. Replace `{repo-name}` with the name of your repository.
+1. Open up Visual Studio Code, or your favorite IDE!
+   1. Use your IDE's project-wide find and replace:
+      1. Replace `author/package` with your own author and package name.
+      2. Replace `neoncitylights/php-template` with the name of your GitHub repository.
+      3. Replace `Neoncitylights\\ExampleLibrary\\` and `Neoncitylights\ExampleLibrary` with your own namespace.
+1. Delete this `README.md`, and rename [`LIBRARY.md`](./LIBRARY.md) to `README.md`.
+
 ## Configure
 
 - Configure Composer package: [`composer.json`](./composer.json) • [[docs](https://getcomposer.org/doc/04-schema.md), [website](https://getcomposer.org/), [repo](https://github.com/composer/composer)]

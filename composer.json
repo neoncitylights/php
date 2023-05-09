@@ -1,5 +1,5 @@
 {
-	"name": "author/example-library",
+	"name": "author/package",
 	"description": "repository template for creating composer packages",
 	"authors": [
 		{
