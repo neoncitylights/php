@@ -62,10 +62,20 @@ jobs:
         github_token: ${{ secrets.GITHUB_TOKEN }}
         publish_dir: ./docs/build
 
+  ci-success-pr:
+    runs-on: ubuntu-latest
+    name: ci-success (PR)
+    if: ${{ success() && github.event_name == 'pull_request' }}
+    needs:
+      - build
+    steps:
+      - name: ✅ CI succeeded
+        run: exit 0
+
   ci-success:
     runs-on: ubuntu-latest
     name: ci-success
-    if: ${{ success() }}
+    if: ${{ success() && github.event_name == 'push' }}
     needs:
       - build
       - docs
