@@ -14,20 +14,23 @@
 	},
 	
 	// Set *default* container specific settings.json values on container create.
-	"settings": { 
-		"php.validate.executablePath": "/usr/local/bin/php"
+	"customizations": {
+		"vscode": {
+			"settings": { 
+				"php.validate.executablePath": "/usr/local/bin/php"
+			},
+			// Add the IDs of extensions you want installed when the container is created.
+			"extensions": [
+				"aaron-bond.better-comments",
+				"bmewburn.vscode-intelephense-client",
+				"felixfbecker.php-debug",
+				"ikappas.composer",
+				"lextudio.restructuredtext",
+				"mrmlnc.vscode-apache",
+				"neilbrayfield.php-docblocker"
+			]
+		}
 	},
-
-	// Add the IDs of extensions you want installed when the container is created.
-	"extensions": [
-		"aaron-bond.better-comments",
-		"bmewburn.vscode-intelephense-client",
-		"felixfbecker.php-debug",
-		"ikappas.composer",
-		"lextudio.restructuredtext",
-		"mrmlnc.vscode-apache",
-		"neilbrayfield.php-docblocker"
-	],
 
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
 	"forwardPorts": [8080],
