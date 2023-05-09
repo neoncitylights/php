@@ -1,39 +1,19 @@
-name: PHP Composer
+name: PHP CI
 
 on:
   workflow_dispatch:
   push:
     branches: [ main ]
-    paths:
-      - 'src/**/*.php'
-      - 'tests/**/*.php'
-      - '.phpcs.xml'
-      - '.phpunit.xml.dist'
-      - 'composer.json'
-      - 'composer.lock'
-      - 'phpdoc.dist.xml'
-      - 'psalm.xml'
-      - '!vendor'
   pull_request:
     branches: [ main ]
-    paths:
-      - 'src/**/*.php'
-      - 'tests/**/*.php'
-      - '.phpcs.xml'
-      - '.phpunit.xml.dist'
-      - 'composer.json'
-      - 'composer.lock'
-      - 'phpdoc.dist.xml'
-      - 'psalm.xml'
-      - '!vendor'
 
 jobs:
   build:
-
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@v3
+    - name: Checkout repository
+      uses: actions/checkout@v3
 
     - name: Setup PHP
       uses: shivammathur/setup-php@v2
