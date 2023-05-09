@@ -8,7 +8,7 @@ on:
     branches: [ main ]
 
 env:
-  PHP_LATEST: 8.1
+  PHP_LATEST: 8.2
 
 jobs:
   build:
@@ -16,8 +16,8 @@ jobs:
     strategy:
       matrix:
         php: 
-          - '8.0'
           - '8.1'
+          - '8.2'
 
     steps:
     - name: Checkout repository
