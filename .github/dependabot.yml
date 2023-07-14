@@ -14,6 +14,13 @@ updates:
     labels:
       - "t-dependencies"
       - "pkg-composer"
+    groups:
+      mediawiki:
+        patterns:
+          - "mediawiki/*"
+      php-parallel-lint:
+        patterns:
+          - "php-parallel-lint/*"
     open-pull-requests-limit: 4
 
   - package-ecosystem: "github-actions"
