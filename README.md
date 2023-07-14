@@ -18,7 +18,7 @@ This repository makes it easier to develop a PHP application or library by provi
 - [x] Continuous integration with [GitHub Actions](https://github.com/features/actions)
 - [x] auto-generated documentation with [phpDocumentor](https://www.phpdoc.org/), [GitHub Pages](https://docs.github.com/en/pages)
 - [x] Remote development with [GitHub Codespaces](https://github.com/features/codespaces)
-- [x] Composer dependency updates auto-managed with Renovatebot
+- [x] Composer dependency updates auto-managed with Dependabot
 
 ## Getting started
 
@@ -60,6 +60,7 @@ Delete this `README.md`, and rename [`LIBRARY.md`](./LIBRARY.md) to `README.md`.
 | PHPUnit (unit testing) | [`.phpunit.xml.dist`](./.phpunit.xml.dist) | [docs](https://phpunit.readthedocs.io/en/10.1/configuration.html), [website](https://phpunit.de/), [repo](https://github.com/sebastianbergmann/phpunit) |
 | PSalm (security analysis) | [`psalm.xml`](./psalm.xml) | [docs](https://psalm.dev/docs/running_psalm/configuration/), [website](https://psalm.dev/), [repo](https://github.com/vimeo/psalm) |
 | phpdoc (documentation generator) | [`phpdoc.dist.xml`](./phpdoc.dist.xml) | [docs](https://docs.phpdoc.org/3.0/guide/references/configuration.html), [website](https://www.phpdoc.org/), [repo](https://github.com/phpdocumentor/phpdocumentor) |
+| Dependabot | [`.github/dependabot.yml`](./.github/dependabot.yml) | [docs](https://docs.github.com/en/code-security/dependabot/dependabot-version-updates/configuration-options-for-the-dependabot.yml-file), [website](https://github.com/dependabot) |
 
 ## See also
 
