@@ -2,7 +2,6 @@
 
 namespace Neoncitylights\ExampleLibrary\Tests;
 
-use Neoncitylights\ExampleLibrary\IAnimal;
 use Neoncitylights\ExampleLibrary\Dog;
 use PHPUnit\Framework\TestCase;
 
