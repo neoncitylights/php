@@ -14,6 +14,9 @@
 			"Neoncitylights\\ExampleLibrary\\": "src/"
 		}
 	},
+	"require": {
+		"php": ">=8.2"
+	},
 	"require-dev": {
 		"mediawiki/mediawiki-codesniffer": "41.0.0",
 		"mediawiki/minus-x": "1.1.1",
