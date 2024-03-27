@@ -4,6 +4,7 @@ namespace Neoncitylights\ExampleLibrary\Tests;
 
 use Neoncitylights\ExampleLibrary\Animal;
 use Neoncitylights\ExampleLibrary\Dog;
+use PHPUnit\Framework\Attributes\CoversClass;
 use PHPUnit\Framework\Attributes\UsesClass;
 use PHPUnit\Framework\TestCase;
 
