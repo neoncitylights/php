@@ -10,11 +10,10 @@ This repository makes it easier to develop a PHP application or library by provi
 
 ## Features
 
-- [x] [PHP 8.0](https://www.php.net/releases/8.0/en.php) support
+- [x] [PHP 8.2+](https://www.php.net/releases/8.2/en.php) support
 - [x] *Unit testing* with [PHPUnit](https://github.com/sebastianbergmann/phpunit/) ([official website](https://phpunit.de/))
 - [x] Validates PHP syntax with [php-parallel-lint](https://github.com/php-parallel-lint/PHP-Parallel-Lint)
 - [x] Lint and auto-format PHP code with [PHP CodeSniffer](https://github.com/squizlabs/PHP_CodeSniffer) (PHPCS)
-- [x] Security analysis with [Psalm](https://github.com/vimeo/psalm) ([official website](https://psalm.dev/))
 - [x] Continuous integration with [GitHub Actions](https://github.com/features/actions)
 - [x] auto-generated documentation with [phpDocumentor](https://www.phpdoc.org/), [GitHub Pages](https://docs.github.com/en/pages)
 - [x] Remote development with [GitHub Codespaces](https://github.com/features/codespaces)
@@ -58,7 +57,6 @@ Delete this `README.md`, and rename [`LIBRARY.md`](./LIBRARY.md) to `README.md`.
 | Composer package | [`composer.json`](./composer.json) | [docs](https://getcomposer.org/doc/04-schema.md), [website](https://getcomposer.org/), [repo](https://github.com/composer/composer) |
 | PHPCS (formatter + linter) | [`.phpcs.xml`](./.phpcs.xml) | [docs](https://github.com/squizlabs/PHP_CodeSniffer/wiki/Advanced-Usage#using-a-default-configuration-file), [repo](https://github.com/squizlabs/PHP_CodeSniffer) |
 | PHPUnit (unit testing) | [`.phpunit.xml.dist`](./.phpunit.xml.dist) | [docs](https://phpunit.readthedocs.io/en/10.1/configuration.html), [website](https://phpunit.de/), [repo](https://github.com/sebastianbergmann/phpunit) |
-| PSalm (security analysis) | [`psalm.xml`](./psalm.xml) | [docs](https://psalm.dev/docs/running_psalm/configuration/), [website](https://psalm.dev/), [repo](https://github.com/vimeo/psalm) |
 | phpdoc (documentation generator) | [`phpdoc.dist.xml`](./phpdoc.dist.xml) | [docs](https://docs.phpdoc.org/3.0/guide/references/configuration.html), [website](https://www.phpdoc.org/), [repo](https://github.com/phpdocumentor/phpdocumentor) |
 | Dependabot | [`.github/dependabot.yml`](./.github/dependabot.yml) | [docs](https://docs.github.com/en/code-security/dependabot/dependabot-version-updates/configuration-options-for-the-dependabot.yml-file), [website](https://github.com/dependabot) |
 
