@@ -7,9 +7,6 @@ on:
   pull_request:
     branches: [ main ]
 
-env:
-  PHP_LATEST: 8.3
-
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -41,12 +38,3 @@ jobs:
       run: composer install --prefer-dist --no-progress
     - name: Run test suite
       run: composer test
-
-  ci-success:
-    runs-on: ubuntu-latest
-    name: ci-success
-    needs:
-      - build
-    steps:
-      - name: ✅ CI succeeded
-        run: exit 0
