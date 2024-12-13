@@ -2,14 +2,11 @@
 
 namespace Neoncitylights\ExampleLibrary\Tests;
 
-use Neoncitylights\ExampleLibrary\Animal;
 use Neoncitylights\ExampleLibrary\Dog;
 use PHPUnit\Framework\Attributes\CoversClass;
-use PHPUnit\Framework\Attributes\UsesClass;
 use PHPUnit\Framework\TestCase;
 
 #[CoversClass( Dog::class )]
-#[UsesClass( Animal::class )]
 class DogTest extends TestCase {
 	public function testGetName(): void {
 		$this->assertEquals( 'Ralph', ( new Dog( 'Ralph', 4.0 ) )->getName() );

@@ -17,7 +17,6 @@
 			<ignore hidden="true" symlinks="true">
 				<path>tests/**/*</path>
 				<path>vendor/**/*</path>
-				<path>.history</path>
 			</ignore>
 			<extensions>
 				<extension>php</extension>
